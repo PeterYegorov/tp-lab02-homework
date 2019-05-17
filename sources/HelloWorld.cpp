@@ -3,8 +3,8 @@
 using namespace std
 int main()
 {
-    string username;
-    cout << "Enter your name:" << endl;
-    cin >> username;
-    cout << "Hello, World! From " << username;
+    string username; // created a variable string to store a username
+    cout << "Enter your name:" << endl; // printed the name request
+    cin >> username; // Enter a name from keyboard
+    cout << "Hello, World! From " << username; // final result
 }
